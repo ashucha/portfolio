@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-server",
+  "version": "1.0.0",
+  "description": "Server for my portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Ashu Chakragiri",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20"
+  }
+}
